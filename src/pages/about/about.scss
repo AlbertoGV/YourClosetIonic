@@ -1,0 +1,56 @@
+page-about {
+    .titulo1{
+        margin: 5%;
+        justify-content: space-between;
+    }
+    .item-divider{
+        background-color:#009688;
+        color: white;
+        margin-bottom: 2%;
+        margin-top: 4%;
+      }
+    .imagen{
+      width: 30%;
+      margin: auto;
+    }
+    .imagencard{
+        width: 20%;
+        height: 20%;
+        margin: 1%;
+      }
+    .flote1{
+        width: 30%;
+        float: right;
+    }
+    .imagenes2{
+        width: 30%;
+        display: inline-block;
+    }
+    .imagenep{
+        width: 40%;
+        display: inline-block;
+        margin: auto;
+    }
+  
+    .imagenes{
+        margin:auto;
+        display: block;
+    }
+        
+    .tituloprincipal{
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+    }
+  
+    .border-bottom{
+        border-bottom: 1px solid grey !important;
+    }
+    .negrita{
+        font-weight: bold;
+    }
+    
+    
+    
+}
+

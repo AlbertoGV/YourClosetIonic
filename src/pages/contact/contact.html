@@ -1,0 +1,129 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <ion-title>
+      Guía Rápida
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+        <ion-content class="background">
+            <ion-grid >
+               <ion-row justify-content-center id="1">
+                  
+                  <ion-col col-12 col-md-6 >
+
+                <H5 class="cent">1. Pulsa en el menú y comienza</H5>
+                 <ion-card style="white-space: normal" color="primary">
+                     <img class="imagena" src="/assets/imgs/menu.jpg">
+                     <ion-fab right top>
+                       <button ion-fab>
+                         <ion-icon name="menu"></ion-icon>
+                       </button>
+                      </ion-fab>
+                     <ion-item class="centrado">
+                       <ion-icon name="menu" ></ion-icon>
+                       <p>Menú Lateral</p>
+                       <p>Entra en el menú o pulsa en el botón +</p> 
+                         <p>para empezar a subir tus anuncios.</p>
+                     </ion-item>
+                   </ion-card>
+                   </ion-col>
+                 </ion-row>
+                 <ion-row justify-content-center id="2">
+                    <ion-col col-12 col-md-6>
+                        <H5 class="cent" >2. Introduce los datos en el formulario</H5>
+                   <ion-card color="primary">
+                     
+                       <img class="imagenas" src="/assets/imgs/publicarimagen.jpeg">
+                       <ion-fab right top>
+                         <button ion-fab>
+                           <ion-icon name="images"></ion-icon>
+                         </button>
+                       </ion-fab>
+                       <ion-item class="centrado">
+                         <ion-icon name="images" ></ion-icon>
+                         <p>Publica tu anuncio</p>
+                         <p>Rellena el formulario, selecciona una foto </p>
+                         <p>de tu dispositivo y publica tu anuncio</p>
+                         <p>rápido y fácil.</p>
+                       </ion-item>
+                     </ion-card>
+                     </ion-col>
+                     
+                   </ion-row>
+                   <ion-row justify-content-center  id="3">
+                      <ion-col col-12 col-md-6>
+                          <H5 class="cent">3. No te olvides de compartir tu ubicación</H5>
+                     <ion-card color="primary">
+                        <img class ="imagen"src="/assets/imgs/ubicacion2.jpeg">
+                         <ion-fab right top>
+                           <button ion-fab>
+                             <ion-icon name="locate"></ion-icon>
+                           </button>
+                          </ion-fab>
+                         <ion-item  class="centrado">
+                           <ion-icon name="locate"></ion-icon>
+                           <p>Comparte la Ubicación</p>
+                           <p>Comparte tu ubicación para facilitar a los </p>
+                           <p>demás ver donde se encuentran </p>
+                           <p>los productos.</p>
+                         </ion-item>
+                       </ion-card>
+                       </ion-col>
+                     </ion-row>
+                   <ion-row justify-content-center id="4">
+                     
+                      <ion-col col-12 col-md-6 >
+                          <H5 class="cent" >4. Chatea con los demás usuarios</H5>
+                     <ion-card color="primary">
+                         <img class="imagena" src="/assets/imgs/chat.jpeg">
+                         <ion-fab right top>
+                           <button ion-fab>
+                             <ion-icon name="chatbubbles"></ion-icon>
+                           </button>
+                         </ion-fab>
+                         <ion-item class="centrado">
+                           <ion-icon name="chatbubbles"></ion-icon>
+                           <p>Chat</p>
+                           <p>Chatea con los demás gracias a nuestro </p>
+                            <p>chat integrado.</p>
+                         </ion-item>
+                       </ion-card>
+                       </ion-col>
+
+                     </ion-row>
+                     <ion-row justify-content-center  id="5">
+                        
+                        <ion-col col-12 col-md-6>
+                            <H5 class="cent">5. Visualiza los anuncios como más te guste.</H5>
+                       <ion-card color="primary">
+                           <img class="imagena" src="/assets/imgs/lista.jpg">
+                           <ion-fab right top>
+                             <button ion-fab>
+                               <ion-icon name="list"></ion-icon>
+                             </button>
+                           </ion-fab>
+                           <ion-item class="centrado">
+                             <ion-icon name="list"></ion-icon>
+                             <p>Listas de anuncios</p>
+                             <p>Visualiza los anuncios en listas</p>
+                             <p>más comódamente.</p>
+                           </ion-item>
+                         </ion-card>
+                         </ion-col>
+                        </ion-row>
+               </ion-grid>
+              <ion-fab right bottom>
+                  <button ion-fab color="yourCloset"><ion-icon name="expand"></ion-icon></button>
+                  <ion-fab-list side="top">
+                    <button ion-fab  (click)="scrollBottom()"><ion-icon name="arrow-round-down"></ion-icon> </button>
+                    <button ion-fab  (click)="scrollTo('4')">4</button>
+                    <button ion-fab  (click)="scrollTo('3')">3</button>
+                    <button ion-fab  (click)="scrollTo('2')">2</button>
+                    <button ion-fab  (click)="scrollTo('1')">1</button>
+                    <button ion-fab  (click)="scrollTop()"><ion-icon name="arrow-round-up"></ion-icon></button>
+                  </ion-fab-list>
+                </ion-fab>
+              </ion-content>
+               
+
+                       

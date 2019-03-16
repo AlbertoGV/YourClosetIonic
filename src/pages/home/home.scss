@@ -1,0 +1,73 @@
+page-home {
+  
+  .cabecera{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.63); 
+    margin: 3%;
+    
+    }
+    .textocabecera{
+      text-align: center;
+      padding: 1%;
+    }
+    
+    .background{
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/yourcloset1-fd3b3.appspot.com/o/imagenes%20ionic%2FSin%20t%C3%ADtulo.png?alt=media&token=cf342a67-8b51-4b3b-868a-80f572899ad3");
+      position: absolute;
+      
+      background-size: cover;
+    
+    }
+
+    .Botones{
+      width: 50%;
+     
+      margin: auto;
+      
+      
+    }
+
+  .logo{
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+ 
+   
+  
+  }
+  .botones{
+    margin: auto;
+    display:inline-block;
+    padding: 2%;
+  
+  }
+
+  .ajustarimagenes{
+    display: block;
+    margin: auto;
+    height: 45%;
+   
+   
+   
+    }
+   // sm 576px
+   @media screen and (min-width : 576px){
+   }
+
+// md 768px
+@media screen and (min-width : 768px){
+  
+}
+
+// lg 992px
+@media screen and (min-width : 992px){
+  
+}
+
+// xl 1200px
+@media screen and (min-width : 1200px){
+  
+}
+
+
+}

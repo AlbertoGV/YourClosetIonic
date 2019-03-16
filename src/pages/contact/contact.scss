@@ -1,0 +1,63 @@
+page-contact {
+  .imagena{
+   width: 20%;
+   margin: auto;
+  display: grid;
+  
+}
+.cent{
+  margin: auto;
+  display: inline;
+}
+.imagenas{
+  width: 20%;
+  margin: auto;
+  display: grid;
+  
+ 
+}
+
+  .imagen{
+      width: 50%;
+      height: auto;
+      margin: auto;
+  }
+  .centrado{
+    margin-block-start: 0%;
+    text-align: center; 
+  }
+  .fondo{
+    background-attachment: fixed;
+    background-color:#009688;
+    
+
+  }
+  ion-content{
+    background: #009688;
+  }
+  .background{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/yourcloset1-fd3b3.appspot.com/o/imagenes%20ionic%2FSin%20t%C3%ADtulo.png?alt=media&token=cf342a67-8b51-4b3b-868a-80f572899ad3");
+  }
+  
+  
+    .card-title {
+      position: absolute;
+      top: 36%;
+      font-size: 2.0em;
+      width: 100%;
+      font-weight: bold;
+      
+      color: #0000;
+    }
+   
+  
+    .card-subtitle {
+      font-size: 1.0em;
+      position: absolute;
+      top: 52%;
+      width: 100%;
+      color: #fff;
+    }
+  
+  
+}

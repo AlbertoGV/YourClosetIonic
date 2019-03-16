@@ -1,0 +1,36 @@
+
+
+ <ion-content class="background">
+    <img src="assets/imgs/logo3.png"   class="logo"> 
+    <ion-grid>
+    <ion-row justify-content-center>
+        <ion-col col-10 col-md-8 ><h3 class="cabecera">Bienvenidos a YourCloset</h3></ion-col>
+        <ion-col col-10 col-md-8 class="negrita" ><p class="textocabecera">Tu app para comprar y vender ropa! Vende la ropa que ya no te pongas y sácate un dinero!!</p></ion-col>    
+       </ion-row>
+      </ion-grid>
+      <img src="assets/imgs/hola.png" class="ajustarimagenes">
+    
+    <div class="Botones">
+<div class="boton1">
+  <button ion-button  *ngIf="platformAndroid"  class="colorbutton" large round block (click)="openLink('https://drive.google.com/open?id=1wW_U3_R_BkSBvGsVCRhmsXHL3aNdZpgl')">
+    <ion-icon name="logo-android"></ion-icon>
+  </button>
+</div>
+<div class="boton2">
+  <button ion-button  *ngIf="platformIos" class="colorbutton" large round block (click)="lanzarToast">
+    <ion-icon name="logo-apple"></ion-icon>
+    iOS
+  </button>
+</div>
+<div class="boton3">
+  <button ion-button  [disabled]="platformDesktop" class="colorbutton"  large round block (click)="openLink('https://yourclosetpwa.firebaseapp.com/')">
+    <ion-icon name="browsers"></ion-icon>
+    PWA
+  </button>
+</div>
+</div>
+
+
+  </ion-content>
+
+
